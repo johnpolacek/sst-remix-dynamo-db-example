@@ -1,0 +1,62 @@
+{
+  "version": "34.0.0",
+  "files": {
+    "409abfc533c4204266538db5119979c8586e8222aedcc435787f0407e0ae349f": {
+      "source": {
+        "path": "asset.409abfc533c4204266538db5119979c8586e8222aedcc435787f0407e0ae349f",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "202587717710-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-202587717710-us-east-1",
+          "objectKey": "409abfc533c4204266538db5119979c8586e8222aedcc435787f0407e0ae349f.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::202587717710:role/cdk-hnb659fds-file-publishing-role-202587717710-us-east-1"
+        }
+      }
+    },
+    "5bc602ecde93c947efe5899ae355f999986a1acbe610b1c0b9c468d738857555": {
+      "source": {
+        "path": "asset.5bc602ecde93c947efe5899ae355f999986a1acbe610b1c0b9c468d738857555",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "202587717710-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-202587717710-us-east-1",
+          "objectKey": "5bc602ecde93c947efe5899ae355f999986a1acbe610b1c0b9c468d738857555.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::202587717710:role/cdk-hnb659fds-file-publishing-role-202587717710-us-east-1"
+        }
+      }
+    },
+    "fe885b873b74f3e399559170c672ea4d928c08d4004d668abd96c9539a22e8c8": {
+      "source": {
+        "path": "asset.fe885b873b74f3e399559170c672ea4d928c08d4004d668abd96c9539a22e8c8.zip",
+        "packaging": "file"
+      },
+      "destinations": {
+        "202587717710-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-202587717710-us-east-1",
+          "objectKey": "fe885b873b74f3e399559170c672ea4d928c08d4004d668abd96c9539a22e8c8.zip",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::202587717710:role/cdk-hnb659fds-file-publishing-role-202587717710-us-east-1"
+        }
+      }
+    },
+    "1d8681ed481c6762bd33bec86a6332eadecbd8ec22071a388991cda887222610": {
+      "source": {
+        "path": "johnpolacek-sst-remix-dynamo-db-example-Site.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "202587717710-us-east-1": {
+          "bucketName": "cdk-hnb659fds-assets-202587717710-us-east-1",
+          "objectKey": "1d8681ed481c6762bd33bec86a6332eadecbd8ec22071a388991cda887222610.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::202587717710:role/cdk-hnb659fds-file-publishing-role-202587717710-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

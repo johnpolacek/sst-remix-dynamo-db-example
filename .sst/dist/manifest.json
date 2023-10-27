@@ -1,0 +1,150 @@
+{
+  "version": "34.0.0",
+  "artifacts": {
+    "johnpolacek-sst-remix-dynamo-db-example-Site.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "johnpolacek-sst-remix-dynamo-db-example-Site.assets.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+      }
+    },
+    "johnpolacek-sst-remix-dynamo-db-example-Site": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://202587717710/us-east-1",
+      "properties": {
+        "templateFile": "johnpolacek-sst-remix-dynamo-db-example-Site.template.json",
+        "terminationProtection": false,
+        "tags": {
+          "sst:app": "sst-remix-dynamo-db-example",
+          "sst:stage": "johnpolacek"
+        },
+        "validateOnSynth": false,
+        "assumeRoleArn": "arn:${AWS::Partition}:iam::202587717710:role/cdk-hnb659fds-deploy-role-202587717710-us-east-1",
+        "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::202587717710:role/cdk-hnb659fds-cfn-exec-role-202587717710-us-east-1",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-202587717710-us-east-1/1d8681ed481c6762bd33bec86a6332eadecbd8ec22071a388991cda887222610.json",
+        "requiresBootstrapStackVersion": 6,
+        "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
+        "additionalDependencies": [
+          "johnpolacek-sst-remix-dynamo-db-example-Site.assets"
+        ],
+        "lookupRole": {
+          "arn": "arn:${AWS::Partition}:iam::202587717710:role/cdk-hnb659fds-lookup-role-202587717710-us-east-1",
+          "requiresBootstrapStackVersion": 8,
+          "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version"
+        }
+      },
+      "dependencies": [
+        "johnpolacek-sst-remix-dynamo-db-example-Site.assets"
+      ],
+      "metadata": {
+        "/johnpolacek-sst-remix-dynamo-db-example-Site": [
+          {
+            "type": "aws:cdk:stack-tags",
+            "data": [
+              {
+                "Key": "sst:app",
+                "Value": "sst-remix-dynamo-db-example"
+              },
+              {
+                "Key": "sst:stage",
+                "Value": "johnpolacek"
+              }
+            ]
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/CustomResourceHandler/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomResourceHandlerServiceRole41AEC181"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/CustomResourceHandler/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CustomResourceHandlerE8FB56BA"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/site/ServerFunctionRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteServerFunctionRole1F8F4FAC"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/site/ServerFunction/AssetReplacerPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteServerFunctionAssetReplacerPolicy304BF125"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/site/ServerFunction/AssetReplacer/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteServerFunctionAssetReplacer9A11D516"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/site/ServerFunction/ServerFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteServerFunction6DFA6F1B"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/site/ServerFunction/ServerFunction/LogRetention/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteServerFunctionLogRetention7123678D"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/site/Parameter_url/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "siteParameterurl3D1716BC"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRole9741ECFB"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aServiceRoleDefaultPolicyADDA7DEB"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8a/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LogRetentionaae0aa3c5b4d4f87b02d85b201efdd8aFD4BFC8A"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/SSTStackOutputSSTMetadata": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SSTMetadata"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/BootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BootstrapVersion"
+          }
+        ],
+        "/johnpolacek-sst-remix-dynamo-db-example-Site/CheckBootstrapVersion": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CheckBootstrapVersion"
+          }
+        ]
+      },
+      "displayName": "johnpolacek-sst-remix-dynamo-db-example-Site"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}

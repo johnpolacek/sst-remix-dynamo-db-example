@@ -1,0 +1,21 @@
+2023-10-27T01:52:21.825Z   +120ms [debug] Config loaded {"version":"2.32.2","cdkVersion":"2.101.1","constructsVersion":"10.2.69","config":{"name":"sst-remix-dynamo-db-example","region":"us-east-1","stage":"johnpolacek","ssmPrefix":"/sst/sst-remix-dynamo-db-example/johnpolacek/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":235,"imports":[{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1698371541728.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":142}},"bytes":324}}},"paths":{"config":"/Users/johnpolacek/Sites/localhost/sst-remix-dynamo-db-example/sst.config.ts","root":"/Users/johnpolacek/Sites/localhost/sst-remix-dynamo-db-example","out":"/Users/johnpolacek/Sites/localhost/sst-remix-dynamo-db-example/.sst","artifacts":"/Users/johnpolacek/Sites/localhost/sst-remix-dynamo-db-example/.sst/artifacts"}}
+2023-10-27T01:52:24.159Z  +2334ms [debug] Using AWS profile 
+2023-10-27T01:52:24.165Z     +6ms [debug] Created AWS client IoTClient
+2023-10-27T01:52:24.165Z     +0ms [debug] Getting IoT endpoint
+2023-10-27T01:52:24.211Z    +46ms [debug] Synthesizing stacks...
+2023-10-27T01:52:24.226Z    +15ms [debug] Created AWS client STSClient
+2023-10-27T01:52:24.390Z   +164ms [debug] Using IoT endpoint: an533adlss5sj-ats.iot.us-east-1.amazonaws.com
+2023-10-27T01:52:24.390Z     +0ms [debug] Initializing bootstrap context
+2023-10-27T01:52:24.391Z     +1ms [debug] Created AWS client CloudFormationClient
+2023-10-27T01:52:24.458Z    +67ms [debug] Using identity Account: 202587717710 User: AIDAS6KZLIBHCRQW6HF3I
+2023-10-27T01:52:24.464Z     +6ms [debug] Generating types in /Users/johnpolacek/Sites/localhost/sst-remix-dynamo-db-example/.sst/types
+2023-10-27T01:52:24.705Z   +241ms [debug] Running 1 deferred tasks with concurrency: 15
+2023-10-27T01:52:25.466Z   +761ms [debug] Loaded bootstrap status
+2023-10-27T01:52:25.466Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.2","bucket":"sstbootstrap-useast124d14e4b-1hzvqlyixkoh7"}
+2023-10-27T01:52:25.468Z     +2ms [debug] Created AWS client S3Client
+2023-10-27T01:52:25.679Z   +211ms [debug] 
+2023-10-27T01:52:25.679Z     +0ms [debug] Loading v2 AWS SDK
+2023-10-27T01:52:25.680Z     +1ms [debug] Finished synthesizing
+2023-10-27T01:52:25.898Z   +218ms [debug] IoT connected
+2023-10-27T01:52:25.933Z    +35ms [debug] Fetching metadata for stack johnpolacek-sst-remix-dynamo-db-example-Site failed {"name":"NoSuchKey","$fault":"client","$metadata":{"httpStatusCode":404,"requestId":"Z61HZS10HATST2PG","extendedRequestId":"hewistv3LzcPbCve2iWWtANerY3fkK7sHMhsnVkMEAc2PNV+0k01OlayZMTA4xYCTWcLr4SEeRAiystbW+85RQ==","attempts":1,"totalRetryDelay":0},"Code":"NoSuchKey","Key":"stackMetadata/app.sst-remix-dynamo-db-example/stage.johnpolacek/stack.johnpolacek-sst-remix-dynamo-db-example-Site.json","RequestId":"Z61HZS10HATST2PG","HostId":"hewistv3LzcPbCve2iWWtANerY3fkK7sHMhsnVkMEAc2PNV+0k01OlayZMTA4xYCTWcLr4SEeRAiystbW+85RQ==","message":"The specified key does not exist."}
+2023-10-27T01:52:25.935Z     +2ms [debug] Created AWS client SSMClient
